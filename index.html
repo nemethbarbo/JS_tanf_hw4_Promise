@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script src="app.js" type="module"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="create-post">
+            <h2>Create post</h2>
+            <div>
+                <input id="new-post-id" placeholder="ID" type="number">
+                <input id="new-post-title" placeholder="Title" type="text">
+                <textarea name="" id="new-post-body" cols="300" rows="10" placeholder="Body"></textarea>
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+
+        <div class="post">
+            <h2>Created Post</h2>
+            <div>
+                <p>Id: <span id="post-id"></span></p>
+                <p>Title: <span id="post-title"></span></p>
+                <p>Body: <span id="post-body"></span></p>
+            </div>
+        </div>
+
+        <div class="post-list">
+            <h2>First 10 posts title</h2>
+            <div id="displayed-posts"></div>
+        </div>
+
+        <div class="details">
+            <h2>Post details</h2>
+            <div id="detailed-posts"></div>
+        </div>
+    </body>
+</html>
